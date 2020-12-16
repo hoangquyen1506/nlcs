@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    background-color: white;
+    
+}
+
+.name_d h1 {
+    
+    font-family: 'Times New Roman';
+    font-size: 60px;
+    font-weight: bold;
+    color: brown;
+}
+
+/* INTRO */
+
+.intro {
+    background-color: white;
+}
+
+.intro_container {
+    /* border: 1px solid brown; */
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    box-shadow: none !important;
+}
+
+.intro .intro_container .intro_box .intro_image img{
+    border-radius: 10px;
+}
+
+.intro .intro_container .intro_box .end_content {
+    padding: 10px 50px;
+    margin: 0 120px;
+    background-image: src('../image/candy.png');
+    /* background-color: #4038A9; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+/* INGREDIENTS */
+.ingredients .ingredients_container {
+    width: 860px;
+    padding: 30px;
+    /* border: 1px solid brown; */
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: none !important;
+}
+
+.ingredients .ingredients_container .ingredients_name {
+    text-align: center;
+    margin: 0 90px;
+}
+
+
+.ingredients .ingredients_container .ingredients_name .ingredients_content {
+    margin-left: 100px;
+}
+
+.ingredients .ingredients_container .ingredients_name .ingredients_content ul li p {
+    background-color: beige;
+}
+
+/* STEPS TO DO */
+.cook .cook_container {
+    width: 900px;
+
+    padding: 30px;
+    /* border: 1px solid brown; */
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: none !important;
+}
+
+.cook .intro_container .cook_box .cook_first {
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.cook .cook_container .cook_box .step .step_box {
+    padding: 2px 15px;
+    /* border-radius: 2px solid brown; */
+}
+
+.cook .cook_container .cook_box .step_box_img {
+    padding: 10px 48px 0 140px;
+}
+
+.cook .cook_container .cook_box .step_box_img img {
+    border-radius: 10px;
+    /* box-shadow: 5px 5px 5px 5px #c9c9c9;; */
+}
+
+.custom_admin_bar {
+    background-color: #ffffff !important;
+    color:brown !important;
+  }
+
+  .sidebar ul li a.active {
+    background-color: brown !important;
+    color: #fff !important;
+    font-weight: bold;
+  }
+
+  .nav>li>a:hover {
+    background-color: brown !important;
+    color: #fff !important;
+
+  }
+  .nav>li>a:focus {
+    background-color: brown !important;
+    color:#fff !important;
+  }
+
+  #wrapper {
+    /* background-color: brown; */
+    color: #000
+
+  }
+  .nav>li>a:hover .arrow {
+      background-color: brown !important;
+      color: white !important;
+  }
+
+  .nav>li>a:focus .arrow {
+    background-color: brown !important;
+    color: white !important;
+}
+.bg-detail{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    
+}
+.intro_image{
+    padding-left: 40px;
+}
+
+
+.dropdown-btn {
+    
+    display: block;
+    
+    
+  }
+  
+
+
+
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    
+  }
